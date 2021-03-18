@@ -1,5 +1,5 @@
 <p align="center">
-  <p align="center"><b>React PDF Table Example<b></p>
+  <p align="center"><b>React PDF Table Example</b></p>
     <p align="center"><b>Tested on:</b> Firefox 86.0 (Ubuntu) and Chrome Version 89.0.4389.82 (64-bit) (Ubuntu) <p/>
   <p align="center">Let me know if you guys enjoyed it ✌️ </p>
   <p align="center">
