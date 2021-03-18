@@ -12,19 +12,22 @@
   </p>
 </p>
 
+## Gist
 
 I've seen people asking everywhere how the hell can you build a Table in react-pdf. The sad truth is that there is still no official component on the library that does it for you. However it doesn't mean that it's not possible, in fact it's not even hard, you just need to get dirty in a tiny bitty of CSS.
 
 In this repository I've built a simple example that shows how you can use \<View\>, \<Text\> and some ninja CSS to easily mimic the appearance of a table.
 
-How to run this baby boy: 
+## How to run
+
 - Clone the repository
 - In the terminal go to the repository folder: `cd react-pdf-table-example`
 - Install the dependencies using yarn or npm, whichever you like: `yarn install` or `npm install`
 - Start the project with: `yarn start`or `npm start`
 - The project will run automatically on `http://localhost:3000/`
 
-<b>The example renders the table on the browser, and should look something similar to this:</b>
+## How it looks
+<p>The example renders the table on the browser, and should look something similar to this:</p>
 
 ![table](https://i.imgur.com/Uy9sQYl.png, "Table Example")
 
