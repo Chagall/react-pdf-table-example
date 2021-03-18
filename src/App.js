@@ -1,13 +1,20 @@
 import React from "react";
+import { PDFViewer } from "@react-pdf/renderer";
+import TableDocument from "./TableDocument";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Project created!</p>
-      </header>
-    </div>
+    <PDFViewer style={viewerStyle}>
+      <TableDocument />
+    </PDFViewer>
   );
-}
+};
+
+const viewerStyle = {
+  display: "block",
+  margin: "0 auto",
+  width: "70vw",
+  height: "90vh"
+};
 
 export default App;
